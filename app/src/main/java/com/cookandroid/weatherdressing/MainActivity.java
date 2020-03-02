@@ -70,7 +70,7 @@ public class MainActivity extends TabActivity {
 
     // 위도/경도 서울시 도봉구 쌍문1동으로 고정
     String srvUrl = "http://newsky2.kma.go.kr/service/SecndSrtpdFrcstInfoService2/ForecastSpaceData?serviceKey=";
-    String srvKey = "ykhQDbZN0NLbGGQDviiiYh%2Fyd4aosYSsTmHRMjbc82zJ1lNtYrHGHv7IHgBeygcc9yVSIAT2COyn2vgKou3jOw%3D%3D";
+    String srvKey = "-----------------인증키-------------------";
     String basetime = getNowDateTime();
     String weather_url = srvUrl + srvKey + "&base_date=" + weather_date + "&base_time=" + basetime +"&nx=61&ny=126&numOfRows=10&_type=xml";
 
